@@ -1,0 +1,9 @@
+/bin
+._*
+.vagrant
+.~lock.*
+.buildpath
+.project
+.settings
+vendor
+composer.phar
