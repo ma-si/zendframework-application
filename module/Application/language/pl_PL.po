@@ -1,27 +1,120 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: ZendSkeletonApplication\n"
+"Project-Id-Version: Aist Zend Framework Application\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-07-05 22:17-0700\n"
-"PO-Revision-Date: 2012-07-28 20:33+0100\n"
-"Last-Translator: Łukasz Rodziewicz <lukasz@rodziewicz.com.pl>\n"
-"Language-Team: ZF Contibutors <zf-devteam@zend.com>\n"
-"Language: \n"
+"POT-Creation-Date: 2016-05-16 22:48+0100\n"
+"PO-Revision-Date: 2016-05-16 22:49+0100\n"
+"Last-Translator: MaSi <webdeveloper@mateuszsitek.com>\n"
+"Language-Team: Aist Internet Technologies <webdeveloper@mateuszsitek.com>\n"
+"Language: pl_PL\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-KeywordsList: translate\n"
-"X-Poedit-Language: Polish\n"
-"X-Poedit-Country: POLAND\n"
+"X-Poedit-KeywordsList: translate;translatePlural:1,2\n"
 "X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: ..\n"
 
+#: ../view/error/index.phtml:1
+msgid "An error occurred"
+msgstr "Wystąpił błąd"
+
+#: ../view/error/index.phtml:7 ../view/error/404.phtml:44
+msgid "additional information"
+msgid_plural "additional informations"
+msgstr[0] "dodatkowa informacja"
+msgstr[1] "dodatkowe informacje"
+msgstr[2] "dodatkowych informacji"
+
+#: ../view/error/index.phtml:10 ../view/error/index.phtml:28
+#: ../view/error/404.phtml:47 ../view/error/404.phtml:65
+msgid "file"
+msgid_plural "files"
+msgstr[0] "plik"
+msgstr[1] "pliki"
+msgstr[2] "plików"
+
+#: ../view/error/index.phtml:12 ../view/error/index.phtml:30
+#: ../view/error/404.phtml:49 ../view/error/404.phtml:67
+msgid "message"
+msgid_plural "messages"
+msgstr[0] "komunikat"
+msgstr[1] "komunikaty"
+msgstr[2] "komunikatów"
+
+#: ../view/error/index.phtml:14 ../view/error/index.phtml:32
+#: ../view/error/404.phtml:51 ../view/error/404.phtml:69
+msgid "stack trace"
+msgstr "stack trace"
+
+#: ../view/error/index.phtml:22 ../view/error/404.phtml:59
+msgid "previous exception"
+msgid_plural "previous exceptions"
+msgstr[0] "poprzedni wyjątek"
+msgstr[1] "poprzednie wyjąteki"
+msgstr[2] "poprzedni wyjąteków"
+
+#: ../view/error/index.phtml:40 ../view/error/404.phtml:77
+msgid ""
+"There may be more exceptions, but we have no enough memory to proccess it."
+msgstr ""
+"Mogło wystąpić więcej wyjątków, ale nie mamy wystarczająco pamięci by je "
+"przetworzyć."
+
+#: ../view/error/index.phtml:47 ../view/error/404.phtml:84
+msgid "No Exception available"
+msgstr "Brak dostępnego wyjątku"
+
+#: ../view/error/404.phtml:1
+msgid "A 404 error occurred"
+msgstr "Wystąpił błąd 404"
+
+#: ../view/error/404.phtml:9
+msgid "The requested controller was unable to dispatch the request."
+msgstr "Żądany kontroler nie mógł zmapować żądania."
+
+#: ../view/error/404.phtml:12
+msgid ""
+"The requested controller could not be mapped to an existing controller class."
+msgstr ""
+"Żądany kontroler nie mógł być zmapowany na isteniejącą klasę kontrolera."
+
+#: ../view/error/404.phtml:15
+msgid "The requested controller was not dispatchable."
+msgstr "Żądany kontroler nie mógł zostać zmapowany."
+
+#: ../view/error/404.phtml:18
+msgid "The requested URL could not be matched by routing."
+msgstr "Żądany adres URL nie mógł zostać powiązany z routing'iem."
+
+#: ../view/error/404.phtml:21
+msgid "We cannot determine at this time why a 404 was generated."
+msgstr "Nie możemy określić tym razem dlaczego wygenerowano błąd 404."
+
+#: ../view/error/404.phtml:29
+msgid "controller"
+msgid_plural "controllers"
+msgstr[0] "kontroler"
+msgstr[1] "kontrolery"
+msgstr[2] "kontrolerów"
+
+#: ../view/error/404.phtml:35
+#, php-format
+msgid "resolves to %s"
+msgstr "rozwiązuje na %s"
+
 #: ../view/layout/layout.phtml:6
-#: ../view/layout/layout.phtml:33
+msgid "Application"
+msgstr "Aplikacja"
+
+#: ../view/layout/layout.phtml:37
 msgid "Skeleton Application"
 msgstr "Szkielet Aplikacji"
 
-#: ../view/layout/layout.phtml:36
+#: ../view/layout/layout.phtml:41
 msgid "Home"
 msgstr "Strona startowa"
 
@@ -36,118 +129,103 @@ msgstr "Witaj w %sZend Framework 2%s"
 
 #: ../view/application/index/index.phtml:3
 #, php-format
-msgid "Congratulations! You have successfully installed the %sZF2 Skeleton Application%s. You are currently running Zend Framework version %s. This skeleton can serve as a simple starting point for you to begin building your application on ZF2."
-msgstr "Gratulacje! Z powodzeniem zainstalowałeś %sZF2 Skeleton Application%s. Aktualnie używasz Zend Framework w wersji %s. Ten szkielet może służyć jak prosty punkt startowy do budowy Twoich aplikacji na ZF2."
+msgid ""
+"Congratulations! You have successfully installed the %sZF2 Skeleton "
+"Application%s. You are currently running Zend Framework version %s. This "
+"skeleton can serve as a simple starting point for you to begin building your "
+"application on ZF2."
+msgstr ""
+"Gratulacje! Z powodzeniem zainstalowałeś %sZF2 Skeleton Application%s. "
+"Aktualnie używasz Zend Framework w wersji %s. Ten szkielet może służyć jak "
+"prosty punkt startowy do budowy Twoich aplikacji na ZF2."
 
 #: ../view/application/index/index.phtml:4
 msgid "Fork Zend Framework 2 on GitHub"
 msgstr "Forkuj Zend Framework 2 na GitHub'e"
 
-#: ../view/application/index/index.phtml:10
+#: ../view/application/index/index.phtml:12
 msgid "Follow Development"
 msgstr "Śledź prace programistyczne"
 
-#: ../view/application/index/index.phtml:11
+#: ../view/application/index/index.phtml:15
 #, php-format
-msgid "Zend Framework 2 is under active development. If you are interested in following the development of ZF2, there is a special ZF2 portal on the official Zend Framework website which provides links to the ZF2 %swiki%s, %sdev blog%s, %sissue tracker%s, and much more. This is a great resource for staying up to date with the latest developments!"
-msgstr "Zend Framework 2 jest w trakcie aktywnych prac programistycznych. Jeśli jesteś zainteresowany śledzeniem jego rozwoju, istnieje specialny portal ZF2 na oficjalnej stronie Zend Framework na którym dostępne są linki do ZF2 %swiki%s, %sdev blog%s, %sissue tracker%s, oraz wiele więcej. Jest to świetne miejsce by śledzić najnowsze zmiany!"
+msgid ""
+"Zend Framework 2 is under active development. If you are interested in "
+"following the development of ZF2, there is a special ZF2 portal on the "
+"official Zend Framework website which provides links to the ZF2 %swiki%s, "
+"%sdev blog%s, %sissue tracker%s, and much more. This is a great resource for "
+"staying up to date with the latest developments!"
+msgstr ""
+"Zend Framework 2 jest w trakcie aktywnych prac programistycznych. Jeśli "
+"jesteś zainteresowany śledzeniem jego rozwoju, istnieje specialny portal ZF2 "
+"na oficjalnej stronie Zend Framework na którym dostępne są linki do ZF2 "
+"%swiki%s, %sdev blog%s, %sissue tracker%s, oraz wiele więcej. Jest to "
+"świetne miejsce by śledzić najnowsze zmiany!"
 
-#: ../view/application/index/index.phtml:12
+#: ../view/application/index/index.phtml:16
 msgid "ZF2 Development Portal"
 msgstr "ZF2 Development Portal"
 
-#: ../view/application/index/index.phtml:16
+#: ../view/application/index/index.phtml:24
 msgid "Discover Modules"
 msgstr "Odkryj Moduły"
 
-#: ../view/application/index/index.phtml:17
+#: ../view/application/index/index.phtml:27
 #, php-format
-msgid "The community is working on developing a community site to serve as a repository and gallery for ZF2 modules. The project is available %son GitHub%s. The site is currently live and currently contains a list of some of the modules already available for ZF2."
-msgstr "Społeczność pracuje nad stworzeniem społecznościowego serwisu który posłuży jako repozytorium i galeria dla modułów ZF2. Projekt wkrótce będzie dostępny na %son GitHub%s. Ta strona jest aktualnie online i udostępnia listę niektórych modułów dostępnych dla ZF2."
+msgid ""
+"The community is working on developing a community site to serve as a "
+"repository and gallery for ZF2 modules. The project is available %son GitHub"
+"%s. The site is currently live and currently contains a list of some of the "
+"modules already available for ZF2."
+msgstr ""
+"Społeczność pracuje nad stworzeniem społecznościowego serwisu który posłuży "
+"jako repozytorium i galeria dla modułów ZF2. Projekt wkrótce będzie dostępny "
+"na %son GitHub%s. Ta strona jest aktualnie online i udostępnia listę "
+"niektórych modułów dostępnych dla ZF2."
 
-#: ../view/application/index/index.phtml:18
+#: ../view/application/index/index.phtml:28
 msgid "Explore ZF2 Modules"
 msgstr "Odkryj Moduły ZF2"
 
-#: ../view/application/index/index.phtml:22
+#: ../view/application/index/index.phtml:36
 msgid "Help &amp; Support"
 msgstr "Pomoc &amp; Wsparcie"
 
-#: ../view/application/index/index.phtml:23
+#: ../view/application/index/index.phtml:39
 #, php-format
-msgid "If you need any help or support while developing with ZF2, you may reach us via IRC: %s#zftalk on Freenode%s. We'd love to hear any questions or feedback you may have regarding the beta releases. Alternatively, you may subscribe and post questions to the %smailing lists%s."
-msgstr "Jeśli potrzebujesz jakiejkolwiek pomocy lub wsparcia podczas programowania na ZF2, możesz skontaktować się z nami via IRC: %s#zftalk w sieci Freenode%s. Z przyjemnością wysłuchamy wszelkich pytań lub sugestii które możesz mieć odnoście wydań beta. Alternatywnie, możesz zapisać się i wysłać pytanie na %smailing lists%s."
+msgid ""
+"If you need any help or support while developing with ZF2, you may reach us "
+"via IRC: %s#zftalk on Freenode%s. We'd love to hear any questions or "
+"feedback you may have regarding the beta releases. Alternatively, you may "
+"subscribe and post questions to the %smailing lists%s."
+msgstr ""
+"Jeśli potrzebujesz jakiejkolwiek pomocy lub wsparcia podczas programowania "
+"na ZF2, możesz skontaktować się z nami via IRC: %s#zftalk w sieci Freenode"
+"%s. Z przyjemnością wysłuchamy wszelkich pytań lub sugestii które możesz "
+"mieć odnoście wydań beta. Alternatywnie, możesz zapisać się i wysłać pytanie "
+"na %smailing lists%s."
 
-#: ../view/application/index/index.phtml:24
+#: ../view/application/index/index.phtml:40
 msgid "Ping us on IRC"
 msgstr "Wyślij nam wiadomość na IRC"
 
-#: ../view/error/index.phtml:1
-msgid "An error occurred"
-msgstr "Wystąpił błąd"
+#~ msgid "Additional information"
+#~ msgstr "Dodatkowe informacje"
 
-#: ../view/error/index.phtml:8
-msgid "Additional information"
-msgstr "Dodatkowe informacje"
+#~ msgid "File"
+#~ msgstr "Plik"
 
-#: ../view/error/index.phtml:11
-#: ../view/error/index.phtml:35
-msgid "File"
-msgstr "Plik"
+#~ msgid "Message"
+#~ msgstr "Komunikat"
 
-#: ../view/error/index.phtml:15
-#: ../view/error/index.phtml:39
-msgid "Message"
-msgstr "Komunikat"
+#~ msgid "Stack trace"
+#~ msgstr "Stack trace"
 
-#: ../view/error/index.phtml:19
-#: ../view/error/index.phtml:43
-#: ../view/error/404.phtml:55
-msgid "Stack trace"
-msgstr "Stack trace"
+#~ msgid "Previous exceptions"
+#~ msgstr "Poprzedni wyjątek"
 
-#: ../view/error/index.phtml:29
-msgid "Previous exceptions"
-msgstr "Poprzedni wyjątek"
+#~ msgid "Controller"
+#~ msgstr "Kontroler"
 
-#: ../view/error/index.phtml:58
-msgid "No Exception available"
-msgstr "Brak dostępnego wyjątku"
-
-#: ../view/error/404.phtml:1
-msgid "A 404 error occurred"
-msgstr "Wystąpił błąd 404"
-
-#: ../view/error/404.phtml:10
-msgid "The requested controller was unable to dispatch the request."
-msgstr "Żądany kontroler nie mógł zmapować żądania."
-
-#: ../view/error/404.phtml:13
-msgid "The requested controller could not be mapped to an existing controller class."
-msgstr "Żądany kontroler nie mógł być zmapowany na isteniejącą klasę kontrolera."
-
-#: ../view/error/404.phtml:16
-msgid "The requested controller was not dispatchable."
-msgstr "Żądany kontroler nie mógł zostać zmapowany."
-
-#: ../view/error/404.phtml:19
-msgid "The requested URL could not be matched by routing."
-msgstr "Żądany adres URL nie mógł zostać powiązany z routing'iem."
-
-#: ../view/error/404.phtml:22
-msgid "We cannot determine at this time why a 404 was generated."
-msgstr "Nie możemy określić tym razem dlaczego wygenerowano błąd 404."
-
-#: ../view/error/404.phtml:34
-msgid "Controller"
-msgstr "Kontroler"
-
-#: ../view/error/404.phtml:41
-#, php-format
-msgid "resolves to %s"
-msgstr "rozwiązuje na %s"
-
-#: ../view/error/404.phtml:51
-msgid "Exception"
-msgstr "Wyjątek"
-
+#~ msgid "Exception"
+#~ msgstr "Wyjątek"
